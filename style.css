@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.page{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(255,255,255,0.68), rgba(255,255,255,0.68)), url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.content{
+    padding-top: 55px;
+}
+
+h1{
+    color: #003366;
+    font-size: 38px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+nav a{
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 14px;
+}
+
+nav a:hover{
+    color: #003366;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.logo-box{
+    background-color: white;
+    width: 180px;
+    margin: 35px auto;
+    padding: 18px;
+    box-shadow: 0 0 4px gray;
+}
+
+.logo-box img{
+    width: 120px;
+}
+
+.card{
+    background-color: rgba(255,255,255,0.86);
+    width: 62%;
+    margin: 25px auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px gray;
+}
+
+.profile{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.contact-card{
+    margin-top: 45px;
+}
+
+@media(max-width: 700px){
+    h1{
+        font-size: 28px;
+    }
+
+    .card{
+        width: 80%;
+    }
+
+    nav a{
+        display: inline-block;
+        margin: 8px;
+    }
+}
